@@ -1,6 +1,7 @@
 package ex01.basic;
 
-public class HelloJava {
+public class HelloJava { //user class
+	
 	public static void main(String[] args) { //시작점(진입점)
 		// TODO Auto-generated method stub
 		System.out.println("hello java");
