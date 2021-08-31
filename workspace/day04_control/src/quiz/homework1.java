@@ -44,5 +44,4 @@ public class homework1 {
 			ch = str.charAt(0);
 		}
 	}
-
 }
