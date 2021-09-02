@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="2_collection/set/|2_collection/list/|2_collection/map/" kind="src" path=""/>
+	<classpathentry kind="src" path="2_collection/list"/>
+	<classpathentry kind="src" path="2_collection/map"/>
+	<classpathentry kind="src" path="2_collection/set"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
