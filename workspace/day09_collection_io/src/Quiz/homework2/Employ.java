@@ -1,6 +1,6 @@
 package Quiz.homework2;
 
-public class Employ {
+public class Employ { //Model
 	private String name, phone, partition, position;
 
 	public Employ(String name, String phone, String partition, String position) {

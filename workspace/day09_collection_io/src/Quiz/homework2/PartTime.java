@@ -1,6 +1,6 @@
 package Quiz.homework2;
 
-public class PartTime extends Employ{
+public class PartTime extends Employ{ //Model
 	public static final int timepay=8500;
 	int work_time, work_day;
 	
