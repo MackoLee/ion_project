@@ -1,15 +1,26 @@
 package Quiz.homework3;
 
-public class MemberView { //View는 따로 모델을 가지고 있으면 안된다.
-
+public class MemberView {
+	String str="********프로그램 시작*********\n";
+	public MemberView() {
+		draw(); //시작됐으니깐 화면을 뿌려줌.
+	}
 	
-	public Boolean add() { 
-
-		System.out.println("이름을 입력해 주세요 : ");
-		String name = input.readLine();
-		System.out.println("키를 입력해 주세요 : ");
-		Double height = new Double(input.readLine());
-		System.out.println("몸무게를 입력해 주세요 : ");
-		Double weight = new Double(input.readLine());
+	public void clear() {
+		int i=100;
+		while(i-- > 0) System.out.println("");
+	}
+	public void draw() { //화면을 뿌려줌.
+		clear();
+		System.out.print(str);
+	}
+	
+	public void setStr(String str) {
+		this.str=str;
+		draw(); //값이 바뀌었으니깐 그려줌.
+	}
+	public void addStr(String str) {
+		this.str+=str;
+		draw(); //값이 바뀌었으니깐 그려줌.
 	}
 }

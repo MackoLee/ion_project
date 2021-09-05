@@ -1,5 +1,8 @@
 package Quiz.homework3;
 
 public class MainEntry {
-	MemberController memberController = new MemberController();
+	public static void main(String[] args) {
+		MemberController memberController = new MemberController();
+		memberController.run();
+	}
 }
