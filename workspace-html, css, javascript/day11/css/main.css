@@ -1,0 +1,43 @@
+.box{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    transition: 1s;
+}
+.box:focus{ /*텝키를 눌렀을때 */
+    width:300px;
+    background-color: black;
+}
+
+.box:hover{
+    width:300px;
+    background-color:red;
+}
+
+.img_house, .box{
+    border: 5px dotted blue ;
+}
+
+div, input, img{
+    color: pink;
+}
+
+.friuts span:first(2n+1){
+    color:red;
+}
+
+table, td{
+    border: 1px solid plum;
+    text-align: center;
+}
+
+#f{
+    width: 50px;
+    height: 30px;
+}
+
+.bullet li{
+    /* display: none; */
+    text-decoration: none;
+    /* list-style: none; */
+}
