@@ -1,0 +1,67 @@
+
+
+
+body{
+    background-image: url("../../images/puppy.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.calendar{
+}
+.calendar th{
+    text-align: center;
+    border: 2px  black solid;
+    width: 100px;
+    background-color: powderblue;
+}
+.calendar .sat{
+
+    color:blue;
+}
+.calendar .sun{
+    color:red;
+}
+.calendar td{
+    padding: 4px;
+    border: 2px  black solid;
+    height: 80px;
+    background-color: white;
+}
+.calendar tr{
+}
+.calendar .title{
+    height:20px;
+    vertical-align:middle;
+    font:x-large bold;
+    padding: 15px;
+}
+.calendar tr:nth-child(3) td:nth-child(4){
+    background-color:#239842;
+}
+.calendar tr:nth-child(4) td:nth-child(2){
+    background-color:#239842;
+}
+.calendar tr:nth-child(4) td:nth-child(5){
+    background-color:#239842;
+}
+.calendar tr:nth-child(5) td:nth-child(3){
+    background-color:#239842;
+}
+.calendar tr:nth-child(5) td:nth-child(6){
+    background-color:#239842;
+}
+.calendar tr:nth-child(6) td:nth-child(4){
+    background-color:#239842;
+}
+.calendar tr:nth-child(7) td:nth-child(2){
+    background-color:#239842;
+}
+.calendar tr:nth-child(7) td:nth-child(5){
+    background-color:#239842;
+}
+.calendar tr:nth-child(1){
+    height: 20px;
+}
+.calendar tr:nth-child(1){
+    height: 20px;
+}

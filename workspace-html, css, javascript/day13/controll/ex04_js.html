@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script  type="text/JavaScript"  src="../js/test.js"></script>
+   
+
+    <button class="red" onclick="javascript:Name()">개명</button>
+    이름 <input  type="button" id="name" value="이상옥" onclick="alert('1')"/>
+
+    <script>
+        function Name(){
+            const a =document.getElementById('name');
+            a.onclick=()=>{alert('3')};
+            a.value="asdk";
+            console.log(a);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="../css/login_form.css">
+</head>
+
+<body>
+    <form action="" method="GET">
+        <table id="login">
+            <tr>
+                <td class="left_td">
+                    <a class="redtext">*</a>ID
+                </td>
+                <td class="right_td">
+                    <input type="text" placeholder="ID입력" id="id" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td"><a class="redtext">*</a>Password</td>
+                <td class="right_td"><input type="password" placeholder="Password 입력" id="pw" required></td>
+            </tr>
+            <tr>
+                <td class="left_td"><a class="redtext">*</a>Password 확인</td>
+                <td class="right_td"><input type="password" placeholder="Password 재입력" id="pwchk" required></td>
+            </tr>
+            <tr>
+                <td class="left_td"><a class="redtext">*</a>이 름</td>
+                <td class="right_td"><input type="text" placeholder="이름 입력" id="name" required></td>
+            </tr>
+
+            <tr>
+                <td class="left_td"><a class="redtext">*</a>전화번호</td>
+                <td class="right_td">
+                    <select id="tel">
+                        <option value="010">010</option>
+                        <option value="02">02</option>
+                        <option value="070">070</option>
+                        <option value="080">080</option>
+                        <option value="011">011</option>
+                    </select>
+                    <a> - </a>
+                    <input type="text" id="tel1" required> <a> - </a>
+                    <input type="text" id="tel2" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">직 업</td>
+                <td class="right_td">
+                    <select>
+                        <option value="job1">직업 선택</option>
+                        <option value="job2">프로그래머</option>
+                        <option value="job3">공무원</option>
+                        <option value="job4">회사원</option>
+                        <option value="job5">돈많은 백수</option>
+                        <option value="job6">기타</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left_td">성 별</td>
+                <td class="right_td">
+                    <input type="radio" id="sex" value="M"> 남자
+                    <input type="radio" id="sex" value="F"> 여자
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">취 미</td>
+                <td class="right_td">
+                    <input type="checkbox" id="hobby" value="hobby1"> 독서
+                    <input type="checkbox" name="hobby" value="hobby1"> 수영
+                    <input type="checkbox" name="hobby" value="hobby1"> 게임
+                    <input type="checkbox" name="hobby" value="hobby1"> 영화감상
+                    <input type="checkbox" name="hobby" value="hobby1"> 음악듣기
+                </td>
+            </tr>
+            <tr>
+                <td >자기소개</td>
+                <td class="textarea">
+                    <textarea rows="10" cols="30" id="introduce"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td" colspan="2">
+                    <input type="submit" value="등록하기">
+                    <input type="reset" value="취소하기">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

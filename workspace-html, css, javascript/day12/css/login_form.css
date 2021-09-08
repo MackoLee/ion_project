@@ -1,0 +1,33 @@
+
+.redtext{
+    margin: auto;
+    color:red;
+}
+#login{
+    width: 650px;
+    vertical-align: middle;
+}
+
+#login td{
+    padding: 10px;
+    border: double black 4px;
+}
+
+#login #tel1,#tel2{
+    width: 15%;
+}
+#login .textarea{
+    padding: 0px;
+}
+#login textarea{
+    height: 100%;
+    width: 98%;
+}
+#login .left_td{
+    width: 20%;
+    text-align: center;
+}
+
+#login .right_td{
+    width: 80%;
+}

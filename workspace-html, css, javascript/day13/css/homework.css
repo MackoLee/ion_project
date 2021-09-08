@@ -1,0 +1,26 @@
+body{
+}
+
+#gugudan tr:nth-child(1){
+    border:solid black 2px;
+}
+#gugudan tr:nth-child(11){
+    border:solid black 2px;
+}
+#gugudan tr:nth-child(20){
+    border-bottom: solid black 2px;
+}
+#gugudan td{
+    border-left:solid black 2px;
+    border-right:solid black 2px;
+    padding:10px;
+}
+.inline{
+    display:inline-block;
+}
+
+.mid{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
