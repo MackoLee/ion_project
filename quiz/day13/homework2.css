@@ -1,0 +1,11 @@
+.blank li:hover{
+    background-color: teal;
+}
+.blank li{
+    background-color: violet;
+    width:20px;
+    height: 20px;
+}
+#mycanvas{
+    border:solid 2px black;
+}
