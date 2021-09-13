@@ -1,0 +1,93 @@
+/*공용*/
+.ICE01{
+    text-align: center;
+    vertical-align: center;
+    align-content: center;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.img-bg-center{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    font-weight: 300;
+    color: #262626;
+    font-size: 20px;
+    line-height: 150%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-image: url("https://www.i-on.net/common/topbnnr/__icsFiles/afieldfile/2021/03/05/etc-iceplatform.jpg");
+}
+.ICE01-center{
+    width: 1000px;
+    text-align: center;
+    margin:30px auto;
+}
+.ICE01-light-color{
+    color:white;
+}
+.ICE01-button{
+    font-size: 16px;
+    color:white;
+    padding: 15px 35px 17px;
+    font-style: none;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin:0 auto;
+    text-decoration: none;
+}
+.ICE01-detail{
+    text-align: center;
+    width: 1000px;
+    margin:0 auto;
+}
+.ICE-platform{
+    width: 377px;
+    height: 79px;
+    margin: 0 auto;
+}
+#content-img{
+    width: 1000px;
+}
+.ICE01-news{
+    display: flex;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-image: url("https://www.i-on.net/assets/images/bg-news.jpg");
+}
+.ICE01-techs{
+    display:flex;
+    position: absolute;
+    z-index: 1;
+    border-top:black 1px solid;
+    width: 100%;
+}
+.ICE01-techs li{
+    margin:0 auto;
+
+}
+.ICE01-techs a{
+    text-decoration: none;
+    display: table-cell;
+    position:relative;
+    vertical-align: middle;
+    top:-50px;
+    background:#fff;
+    color:#506a85;
+    border:1px solid #ced7e0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin:0 auto;
+}
