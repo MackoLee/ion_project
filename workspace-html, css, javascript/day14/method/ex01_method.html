@@ -23,7 +23,11 @@
     <button onclick="stop()"></button>
     <div id="page"></div>
 
-    <iframe width="686" height="386" src="https://www.youtube.com/embed/lku9czcTi1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+    <video controls width=320 height="300" id="player1">
+        <source src="https://youtu.be/lku9czcTi1M" type="video/youtube">
+    </video>
+    <script>
+        var player = new MediaElementPlayer('#player1');
+    </script>
 </body>
 </html>
