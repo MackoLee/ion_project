@@ -1,0 +1,178 @@
+/* 네비게이션 */
+#mainNav {
+  background-color: white;
+}
+
+#mainNav img{
+  height: 40px;
+}
+
+#mainNav a button{
+  background-color: #bbe5f0;
+  border-radius: 5px;
+  border-color:  #bbe5f0;
+  box-shadow: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#mainNav .nav-item>a{
+  padding: 35px;
+  font-weight: bolder;
+}
+
+/* 세션 1 */
+.ICT-E-section-1 {
+    height:20%;
+    background: url("Energy-ICT-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* font-family: 'Black Han Sans', sans-serif; */
+    vertical-align: middle;
+  }
+.ICT-E-section-1 h1{
+  font-family:'Black Han Sans', sans-serif; 
+  font-size: 70px;
+  color: aliceblue;
+  padding-top: 30px;
+}
+.ICT-E-section-1 h2{
+  /* font-family:'Black Han Sans', sans-serif;  */
+  font-size: 20px;
+  color: white;
+  margin-top: 100px; 
+}
+
+.ICT-E-section-1 a {
+    background: none;
+    border: 3px solid white;
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ICT-E-section-1 a:hover {
+    background-color:#73a0fa;
+    border-color: #73a0fa;
+}
+
+
+
+/* 세션 2 */
+.ICT-E-section-2 {
+  height:20%;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+}
+.ICT-E-section-2 img {
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ICT-E-section-2 p{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* 이미지 슬라이더 */
+#carouselExampleControls{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 80%;
+}
+.ICT-E-section-2 .badge{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* 세션 3 */
+.ICT-E-section-3 {
+  height:20%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  
+}
+
+.ICT-E-section-3 h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.ICT-E-section-3 table{
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ICT-E-section-3 table td{
+    width: 50%;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.ICT-E-section-3 table td:nth-child(2){
+  padding-right: 30px;
+}
+
+/* 세션 4 */
+
+.ICT-E-section-4 {
+    background: url("./Energy-ICT-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 10%;
+}
+
+.ICT-E-section-4 h1{
+  
+  font-size: 70px;
+  color: aliceblue;
+}
+.ICT-E-section-4 h2{
+    font-size: 50px;
+  color: white;
+  margin-top: 100px; 
+}
+
+.ICT-E-section-4 a {
+    background: none;
+    border: 3px solid white;
+    display: block;
+    width: 300px;
+    height: 100px;
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ICT-E-section-4 a:hover {
+    background-color:#73a0fa;
+    border-color: #73a0fa;
+}

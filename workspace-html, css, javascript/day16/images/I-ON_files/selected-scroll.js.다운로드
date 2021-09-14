@@ -1,0 +1,8 @@
+var enableSelectedScroll=(function(){var _selector=false,_element=false,_clientY;if(!Element.prototype.matches)
+Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector;if(!Element.prototype.closest)
+Element.prototype.closest=function(s){var ancestor=this;if(!document.documentElement.contains(el))return null;do{if(ancestor.matches(s))return ancestor;ancestor=ancestor.parentElement;}while(ancestor!==null);return el;};var preventBodyScroll=function(event){if(false===_element||!event.target.closest(_selector)){event.preventDefault();}};var captureClientY=function(event){if(event.targetTouches.length===1){_clientY=event.targetTouches[0].clientY;}};var preventOverscroll=function(event){if(event.targetTouches.length!==1){return;}
+var clientY=event.targetTouches[0].clientY-_clientY;if(_element.scrollTop===0&&clientY>0){event.preventDefault();}
+if((_element.scrollHeight-_element.scrollTop<=_element.clientHeight)&&clientY<0){event.preventDefault();}};return function(allow,selector){if(typeof selector!=="undefined"){_selector=selector;_element=document.querySelector(selector);}
+if(true===allow){if(false!==_element){_element.addEventListener('touchstart',captureClientY,false);_element.addEventListener('touchmove',preventOverscroll,false);}
+document.body.addEventListener("touchmove",preventBodyScroll,false);}else{if(false!==_element){_element.removeEventListener('touchstart',captureClientY,false);_element.removeEventListener('touchmove',preventOverscroll,false);}
+document.body.removeEventListener("touchmove",preventBodyScroll,false);}};}());

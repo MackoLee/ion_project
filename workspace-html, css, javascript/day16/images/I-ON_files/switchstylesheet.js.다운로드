@@ -1,0 +1,5 @@
+$.fn.switchstylesheet=function(options){defaults={seperator:'alt'};var options=$.extend(defaults,options);var c=cookie.readCookie(options.seperator);if(c)switchss(c);$(this).click(function(){var title=$(this).attr('title');switchss(title);});function switchss(title){$('link[rel*=style][title*='+options.seperator+']').each(function(i){this.disabled=true;if($(this).attr('title')==title){this.disabled=false;}});cookie.createCookie(options.seperator,title,365);}};var cookie;(function($){cookie={createCookie:function(name,value,days){if(days)
+{var date=new Date();date.setTime(date.getTime()+(days*24*60*60*1000));var expires="; expires="+date.toGMTString();}
+else var expires="";document.cookie=name+"="+value+expires+"; path=/";},readCookie:function(name){var nameEQ=name+"=";var ca=document.cookie.split(';');for(var i=0;i<ca.length;i++)
+{var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length,c.length);}
+return null;}};})(jQuery);

@@ -1,0 +1,1 @@
+$(function(){$("body").on("click",".more-wrap button",function(){$(".case-list-wrap li").removeClass("hide");$(".more-wrap").hide();});});

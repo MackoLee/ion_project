@@ -1,4 +1,7 @@
+/************************************** 공통 ****************************************************/
+
 /* 네비게이션 */
+/*
 #mainNav {
   background-color: white;
 }
@@ -15,17 +18,19 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-#mainNav .nav-item>a{
+#mainNav a{
   padding: 35px;
   font-weight: bolder;
-}
+}*/
+
+/************************************** Energy ICT ****************************************************/
 
 /* 세션 1 */
 .ICT-E-section-1 {
     height:20%;
-    background: url("Energy-ICT-bg.jpg");
-    background-position: center center;
+    background: url("img/Energy-ICT-bg.jpg");
     background-size: cover;
+    background-position: center center;
     padding-top: 150px;
     padding-bottom: 150px;
     /* font-family: 'Black Han Sans', sans-serif; */
@@ -136,7 +141,7 @@
 /* 세션 4 */
 
 .ICT-E-section-4 {
-    background: url("./Energy-ICT-bg2.jpg");
+    background: url("./img/Energy-ICT-bg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -176,3 +181,224 @@
     background-color:#73a0fa;
     border-color: #73a0fa;
 }
+
+/************************************** Energy ICT END ****************************************************/
+
+/************************************** Sprots ICT ****************************************************/
+
+/* 세션 1 */
+.ICT-S-section-1 {
+  height:20%;
+  background: url("img/Sports-ICT-bg1.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  /* font-family: 'Black Han Sans', sans-serif; */
+  vertical-align: middle;
+}
+.ICT-S-section-1 h1{
+font-family:'Black Han Sans', sans-serif; 
+font-size: 70px;
+color: aliceblue;
+padding-top: 30px;
+}
+.ICT-S-section-1 h2{
+/* font-family:'Black Han Sans', sans-serif;  */
+font-size: 20px;
+color: white;
+margin-top: 100px; 
+}
+
+.ICT-S-section-1 a {
+  background: none;
+  border: 3px solid white;
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ICT-S-section-1 a:hover {
+  background-color:#73a0fa;
+  border-color: #73a0fa;
+}
+
+
+
+/* 세션 2 */
+.ICT-S-section-2 {
+height:20%;
+padding-top: 50px;
+padding-bottom: 50px; 
+}
+
+.ICT-S-section-2 h2{
+  font-size: 33px;
+  font-weight: bolder;
+  font-family: 'Noto Sans KR', sans-serif !important;;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.ICT-S-section-2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ICT-S-section-2 .flexer{
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif !important;;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*  */
+.ICT-S-section-2 .customer{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.ICT-S-section-2 .customer .customer-menu{
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.ICT-S-section-2 .customer .customer-menu .customer-submenu{
+  display: flex;
+  max-width: 100%; 
+  
+  
+}
+
+/* 세션 3 */
+.ICT-S-section-3 {
+height:20%;
+padding-top: 150px;
+padding-bottom: 50px;
+}
+
+.ICT-S-section-3 h2{
+text-align: center;
+font-size: 50px;
+font-weight: bolder;
+}
+
+.ICT-S-section-3 table{
+  font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ICT-S-section-3 table td{
+  width: 50%;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+.ICT-S-section-3 table td:nth-child(2){
+padding-right: 30px;
+}
+
+.ICT-S-section-3 table td  p{
+  font-weight: bold;
+}
+
+.ICT-S-section-3 .etc-service{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.ICT-S-section-3 .etc-service .etc-service-sub{
+  min-width: 500px;
+  max-width: 600px;
+}
+
+.ICT-S-section-3 .etc-service .etc-service-sub .subject{
+  display: flex;
+  max-width: 100%; 
+}
+
+.ICT-S-section-3 .etc-service .etc-service-sub .subject .txt{
+  margin-left: 30px;
+}
+
+.ICT-S-section-3 .etc-service .etc-service-sub .subject p{
+  font-weight: bold;
+}
+
+.ICT-S-section-3 .etc-service .etc-service-sub .subject span{
+  font-size: 12px;
+}
+
+.ICT-S-section-3 .youtube{
+  justify-content: center;
+  display: flex;
+}
+
+.ICT-S-section-3 .youtube iframe{
+  width: 1200px;
+  height: 675px;
+  }
+
+/* 세션 4 */
+
+.ICT-S-section-4 {
+  background: url("./img/Energy-ICT-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 10%;
+}
+
+.ICT-S-section-4 h1{
+
+font-size: 70px;
+color: aliceblue;
+}
+.ICT-S-section-4 h2{
+  font-size: 50px;
+color: white;
+margin-top: 100px; 
+}
+
+.ICT-S-section-4 a {
+  background: none;
+  border: 3px solid white;
+  display: block;
+  width: 300px;
+  height: 100px;
+  
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ICT-S-section-4 a:hover {
+  background-color:#73a0fa;
+  border-color: #73a0fa;
+}
+
+/************************************** Sprots ICT END ****************************************************/
