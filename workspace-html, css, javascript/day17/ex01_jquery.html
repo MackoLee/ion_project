@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script defer type="text/JavaScript" src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>one</p>
+        <div>
+            <p>two</p>
+        </div>
+        <p>three</p>
+    </header>
+    <hr>
+    <div class="ui-widget">
+        <!--여기를 클릭하면 사라졌으면 좋겠다.-->
+        <label for="tags">Tags: </label>
+        <input id="tags"><br>
+    </div>
+
+    <label for="name">이름 : </label>
+    <input id="name">
+
+    <ul>
+        <li>호랑이</li>
+        <li>사자</li>
+        <li>기린</li>
+        <li>곰</li>
+    </ul>
+    <hr>
+    <p>sldkfjlksdjf</p>
+    <script>
+        $('p').click(function () {
+            $('p').fadeOut('slow');
+        })
+    </script>
+</body>
+
+</html>

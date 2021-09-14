@@ -1,5 +1,5 @@
 /*공용*/
-.ICE01{
+.ICE02{
     text-align: center;
     vertical-align: center;
     align-content: center;
@@ -25,37 +25,32 @@ h1 {
     line-height: 150%;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
-    background-image: url("https://www.i-on.net/common/topbnnr/__icsFiles/afieldfile/2021/03/05/etc-iceplatform.jpg");
+    background-image: url("https://www.i-on.net/common/topbnnr/__icsFiles/afieldfile/2021/03/08/etc-icecampaign.jpg");
 }
-.ICE01-center{
+.ICE02-center{
     width: 1000px;
     text-align: center;
     margin:30px auto;
 }
-.ICE01-light-color{
+.ICE02-light-color{
     color:white;
 }
-.ICE01-button{
+.ICE02-button{
     font-size: 16px;
     color:white;
     padding: 15px 35px 17px;
     font-style: none;
-    border: white solid 2px;
+    border: white solid 3px;
     border-radius: 10px;
     margin:0 auto;
     text-decoration: none;
 }
-.ICE01-button:hover{
-    color:white;
-    background-color: cornflowerblue;
-    transition:.4s;
-}
-.ICE01-detail{
+.ICE02-detail{
     text-align: center;
     width: 1000px;
     margin:0 auto;
 }
-.ICE-platform{
+.ICE-compaign{
     width: 377px;
     height: 79px;
     margin: 0 auto;
@@ -63,25 +58,29 @@ h1 {
 #content-img{
     width: 1000px;
 }
-.ICE01-news{
+.ICE02-news{
     display: flex;
     height: 240px;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     background-image: url("https://www.i-on.net/assets/images/bg-news.jpg");
 }
-.ICE01-techs-container{
-    display: flex;
-    align-items: center;
+.ICE02-techs{
+    display:flex;
+    position: absolute;
+    width: 100%;
+}
+
+.ICE02-techs-container{
     border-top:#333 2px solid;
 }
-.ICE01-techs-container ol{
+.ICE02-techs-container ol{
     display: flex;
 }
-.ICE01-techs-container li{
-    margin:0 auto;
+.ICE02-techs-container li{
+    margin:0 15px;
 }
-.ICE01-techs-container a{
+.ICE02-techs-container a{
     text-decoration: none;
     display: table-cell;
     position:relative;
@@ -96,7 +95,7 @@ h1 {
     text-align: center;
     margin:0 auto;
 }
-.ICE01-techs-container a:hover{
-    font-size:20px;
-    transition: .4;
+.ICE02-techs-container a:hover{
+    font-size: 20px;
+    transition:.4;
 }

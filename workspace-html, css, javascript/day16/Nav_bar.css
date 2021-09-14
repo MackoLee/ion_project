@@ -1,0 +1,39 @@
+.Nav-dropdown-menu{
+    left: 0px;
+    right: 0px;
+    width: 800px;
+}
+.Nav-dropdown-menu li{
+    display: flex;
+    list-style: none;
+}
+.Nav-dropdown-menu a{
+    text-decoration: none;
+    padding-left:0px;
+    font-size: 16px;
+    color:black;
+    margin-bottom: 6px;
+}
+.Nav-dropdown-menu a span{
+    text-decoration: none;
+    padding-left:0px;
+    font-size: 14px;
+    color:gray;
+}
+
+.Nav-dropdown-menu h4{
+    font-family: noto sans kr,sans-serif!important;
+    font-size:18px;
+    margin:0 0 20px;
+    font-weight: 500!important;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.Nav-content {
+}
+.inner{
+    width:200px;
+}
