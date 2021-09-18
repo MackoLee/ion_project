@@ -1,4 +1,3 @@
-import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Vector;
 
@@ -8,6 +7,5 @@ public class MainEntry {
 		String a="1";
 	
 		Vector<Integer> vector=new Vector<Integer>();
-		Collections.sort(result);
 	}
 }
