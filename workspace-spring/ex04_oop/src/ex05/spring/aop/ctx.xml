@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+		
+	<bean class="ex05.spring.aop.Employee" 
+			id="employee"
+			p:name="이윤건"
+			p:job="프로그래머"
+			p:age="29"
+			/>
+	<bean class="ex05.spring.aop.Student" id="student">
+		<constructor-arg value="이상옥"/>
+		<constructor-arg value="이상옥"/>
+		<constructor-arg value="이상옥"/>
+		<constructor-arg><value>10</value></constructor-arg>
+	</bean>
+	<bean class="ex05.spring.aop.LogAdvice" id="advice"></bean>
+	
+	<!-- <aop:config>
+	 	<aop:aspect id="aspect" ref="advice">
+	 		<aop:pointcut expression="execution(public void ex05.spring.aop.*.*show(..))" id="pointCut"/>
+	 		<aop:around method="arround" pointcut-ref="pointCut"/>
+	 	</aop:aspect>
+	</aop:config> -->
+
+</beans>

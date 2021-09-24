@@ -19,5 +19,8 @@ public class MainEntry {
 		
 		WorkerView view2 = annocontext.getBean("workerView",WorkerView.class);
 		view2.print();
+		
+
+		for()
 	}
 }
