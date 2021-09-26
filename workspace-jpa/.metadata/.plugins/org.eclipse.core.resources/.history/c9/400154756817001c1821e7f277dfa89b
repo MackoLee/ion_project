@@ -1,0 +1,11 @@
+package ex03.danot;
+
+import java.util.ArrayList;
+
+public class Mycats {
+	String Name,Color;
+	float Weight;
+	
+	ArrayList<String> hobby;
+	
+}

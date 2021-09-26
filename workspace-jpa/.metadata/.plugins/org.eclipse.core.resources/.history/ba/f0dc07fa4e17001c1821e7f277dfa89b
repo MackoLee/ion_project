@@ -1,0 +1,21 @@
+package ex01;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: home
+ *
+ */
+@Entity
+
+public class home implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public home() {
+		super();
+	}
+   
+}

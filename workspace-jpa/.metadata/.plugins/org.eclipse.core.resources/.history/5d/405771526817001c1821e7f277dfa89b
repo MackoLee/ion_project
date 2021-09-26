@@ -1,0 +1,12 @@
+package ex03.danot;
+
+import java.util.ArrayList;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ApplicationContext {
+	public MyCats cat2() {
+		ArrayList<String> hobbys = new ArrayList(); 
+	}
+}

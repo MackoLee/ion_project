@@ -1,0 +1,6 @@
+package ex03.danot;
+
+@Configuration
+public class ApplicationContext {
+
+}

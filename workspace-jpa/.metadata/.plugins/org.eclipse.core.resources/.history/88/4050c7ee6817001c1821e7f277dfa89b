@@ -1,0 +1,19 @@
+package ex03.danot;
+
+import java.util.ArrayList;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ApplicationContext {
+	public Mycats cat2() {
+		ArrayList<String> hobbys = new ArrayList(); 
+		hobbys.add("²Ú²ÚÀÌ");
+		hobbys.add("µß±¼±â");
+		
+		Mycats myCats = new Mycats("Äí±â",13,hobbys);
+		myCats.setWeight(15.3f);
+		myCats.setColor("brawn");
+		return myCats;
+	}
+}

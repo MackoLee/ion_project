@@ -1,0 +1,10 @@
+package ex03.danot;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainEntry {
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext ctx=
+				new AnnotationConfigApplicationContext('ApplicationContext.java');
+	}
+}

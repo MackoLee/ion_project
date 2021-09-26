@@ -1,0 +1,19 @@
+package ex01.di;
+
+public class MessageBeanImpl implements MessageBean{
+	private String name, greeting;
+	// 1. constructor ÀÌ¿כ <--- DI
+	public MessageBeanImpl() {
+	}
+	
+	
+	// 2.
+	
+	
+	
+	@Override
+	public void sayHello() {
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package ex01.di;
+
+import javax.security.auth.login.AppConfigurationEntry;
+
+public class MainEntry {
+	public static void main(String[] args) {
+		AppConfigurationEntry context = new ClassPathXmlApplicationContext();
+	}
+}

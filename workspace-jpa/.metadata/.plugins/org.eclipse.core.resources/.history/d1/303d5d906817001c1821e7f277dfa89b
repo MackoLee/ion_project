@@ -1,0 +1,43 @@
+package ex03.danot;
+
+import java.util.ArrayList;
+
+public class Mycats {
+	String Name,Color;
+	float Weight;
+	
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public String getColor() {
+		return Color;
+	}
+
+	public void setColor(String color) {
+		Color = color;
+	}
+
+	public float getWeight() {
+		return Weight;
+	}
+
+	public void setWeight(float weight) {
+		Weight = weight;
+	}
+
+	public ArrayList<String> getHobby() {
+		return hobby;
+	}
+
+	public void setHobby(ArrayList<String> hobby) {
+		this.hobby = hobby;
+	}
+
+	ArrayList<String> hobby;
+	
+}
