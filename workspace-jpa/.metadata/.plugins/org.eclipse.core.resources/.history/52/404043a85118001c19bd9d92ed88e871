@@ -1,0 +1,30 @@
+package homework;
+
+import java.util.Map;
+
+
+public class StudentVO extends PersonVO implements Person{
+	Map<String, Integer> Subs;
+	
+	public StudentVO() {
+	}
+	
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sleep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

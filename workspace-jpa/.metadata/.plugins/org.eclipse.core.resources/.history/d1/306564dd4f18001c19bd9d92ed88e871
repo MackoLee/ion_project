@@ -1,0 +1,18 @@
+package homework;
+
+public class PersonVO{
+	private String name;
+
+	public PersonVO() {
+		
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
